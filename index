@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Introduction: HTML5 & CSS3 </title>
+	<style>
+		body {
+			width: 1100px;
+			background: rgb(235,215,200);
+			max-width:95%;
+			margin:auto;
+		}
+		h1 {
+			float:left;
+			color:rgb(100,0,0);
+			margin:0;
+		}
+		header h2 {
+			text-align:center;
+			font-weight:normal;
+			color:rgb(0,150,175);
+			
+		}
+		section {
+			background:rgb(255,245,215);
+			padding:101px 100px;
+		}
+		section h2 {
+			<!-- text-align:center; -->
+			color:rgb(0,100,150);
+		}
+		section p {
+		
+			color:rgb(0,150,50);
+		}
+		article {
+			background:rgb(250,250,240);
+			float:left;
+			width:29.3%;
+			margin:1%;
+			padding:1%;
+			height:200px;
+			
+			
+		}
+		h3 {
+			color:rgb(45,45,45);
+		}
+		article p {
+			color:rgb(75,75,75);
+		}
+		li {
+			color:rgb(75,75,75);
+		}
+		
+		footer{
+			text-align:center;
+			background:rgb(175,175,175);
+			clear:left;
+			padding:25px;
+		}
+		a:link {
+			color:red;
+			text-decoration: none;
+		}
+		a:visited {
+			color:green;
+			text-decoration: none;
+		}
+		a:hover {
+			color:hotpink;
+			text-decoration: none;
+		}
+		a:active {
+			color:blue;
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+
+
+		<header>
+			<hgroup>
+				<h1>GREenvironment.com</h1>
+				<h2>Thinking Green</h2>
+			</hgroup>
+		</header>
+		
+		
+		<section>
+				<h2>Go Green</h2>
+
+				<p>Have you ever thought about how your choices affect the earth’s well-being and how you can minimize the impact you and your family make on the environment? From the cars you drive to the products you consume, every choice you make on a daily basis has a consequence for the environment.</p>
+
+				
+		</section>
+		
+		<article>
+			<h3><a href="#">Climate Change</a></h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vos autem cum perspicuis dubia debeatis illustrare, dubiis perspicua conamini tollere. Quaesita enim virtus est, non quae relinqueret naturam, sed quae tueretur. Bona autem corporis huic sunt, quod posterius posui, similiora.</p>
+		</article>
+		
+		<article>
+				<h3><a href="#">Big Green Ideas</a></h3>
+				<ul>
+					<li><a href="#">Biochar</a></li>
+					<li><a href="#">Fertilising the ocean</a></li>
+					<li><a href="#">Benign biofuels</a></li>
+					<li><a href="#">Hydrogen cargo ships</a></li>
+				</ul>
+		</article>
+
+		
+		<article>
+				<h3><a href="#">Save Green</a></h3>
+				<p>Save energy to save money.</p>
+				<p>Save water to save money.</p>
+				<p>Keep electronics out of the trash.</p>
+		</article>
+		
+		
+	<footer>
+			<p>Copyright © 2012-2017 Samir Kumar</p>
+	</footer>
+
+
+</body>
+</html>
